@@ -1,0 +1,15 @@
+baseURL = "http://blog.arteev.net/"
+languageCode = "ru-ru"
+title = "Blog"
+theme = "hyde"
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/arteev/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/aleksey-arteyev-37b24466/"}
+  ]
+
+[params]
+  description = "Заметки, статьи о программировании и не только"
+  themeColor = "theme-base-0d"
+  layoutReverse = true
