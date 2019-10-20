@@ -2,6 +2,11 @@ baseURL = "http://blog.arteev.net/"
 languageCode = "ru-ru"
 title = "Blog"
 theme = "hyde"
+markup = "markdown"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 [Menus]
   main = [
@@ -13,3 +18,10 @@ theme = "hyde"
   description = "Заметки, статьи о программировании и не только"
   themeColor = "theme-base-0d"
   layoutReverse = true
+
+[blackfriday]
+	plainIDAnchors = true
+  # See https://github.com/gohugoio/hugo/issues/2424
+	hrefTargetBlank = false
+  angledQuotes = false
+  latexDashes = true
